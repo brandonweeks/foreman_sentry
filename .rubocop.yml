@@ -1,0 +1,8 @@
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
+Rails:
+  Enabled: true
+Style/ClassAndModuleChildren:
+  Enabled: false
