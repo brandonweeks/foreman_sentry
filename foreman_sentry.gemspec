@@ -13,8 +13,9 @@ Gem::Specification.new do |s|
   s.summary     = 'Foreman plugin to send exceptions to Sentry'
   s.license     = 'Apache-2.0'
 
-  s.files = Dir['{app,lib}/**/*', 'LICENSE', 'README.md']
+  s.files = Dir['{app,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
 
+  s.add_runtime_dependency 'rails', '>= 4.1.14.2'
   s.add_runtime_dependency 'sentry-raven', '~> 1.0'
 
   s.add_development_dependency 'rubocop', '~> 0.40.0'
