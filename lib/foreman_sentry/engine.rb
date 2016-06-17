@@ -20,8 +20,9 @@ module ForemanSentry
       end
     end
 
-    initializer 'foreman_sentry_patch' do
+    initializer 'foreman_sentry_patches' do
       require 'foreman_ext/application_controller'
+      require 'foreman_ext/base_controller'
     end
   end
 end
